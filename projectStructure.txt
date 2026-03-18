@@ -1,0 +1,38 @@
+restaurant-app/
+│
+├── server.js
+├── package.json
+│
+├── models/
+│   ├── Order.js
+│   ├── PickupOrder.js
+│   ├── DeliveryOrder.js
+│   ├── Customer.js
+│   ├── CartItem.js
+│   ├── Cart.js
+│   ├── Admin.js
+│   └── DeliveryTracker.js
+│
+├── controllers/
+│   └── OrderController.js
+│
+├── services/
+│   └── NotificationService.js
+│
+├── routes/
+│   ├── orderRoutes.js
+│   └── adminRoutes.js
+│
+├── database/
+│   └── db.js
+│
+├── frontend/
+│   ├── index.html
+│   ├── menu.html
+│   ├── cart.html
+│   ├── checkout.html
+│   ├── admin.html
+│   ├── style.css
+│   └── app.js
+│
+└── README.md
