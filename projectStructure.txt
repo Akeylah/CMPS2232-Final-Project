@@ -4,14 +4,15 @@ restaurant-app/
 ├── package.json
 │
 ├── models/
-│   ├── Order.js
-│   ├── PickupOrder.js
-│   ├── DeliveryOrder.js
-│   ├── Customer.js
-│   ├── CartItem.js
-│   ├── Cart.js
-│   ├── Admin.js
-│   └── DeliveryTracker.js
+│
+├── Order.ts
+├── PickupOrder.ts
+├── DeliveryOrder.ts
+├── Customer.ts
+├── CartItem.ts
+├── Cart.ts
+├── Admin.ts
+├── DeliveryTracker.ts
 │
 ├── controllers/
 │   └── OrderController.js
