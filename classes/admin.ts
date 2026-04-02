@@ -3,7 +3,7 @@ import User from "./user";
 class Admin extends User {
 
 constructor(userId: number, username: string, password: string) {
-super(userId, username, password, 'admin');
+super(userId, username, password, email, 'admin');
 }
 
 // View all orders

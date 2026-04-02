@@ -1,7 +1,7 @@
 import Order from "./order";
 
 class PickupOrder extends Order {
-
+//time stamp , order summary 
   constructor(orderId: number, userId: number) {
     super(orderId, userId, 'pickup');
   }

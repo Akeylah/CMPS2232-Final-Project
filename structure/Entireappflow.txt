@@ -9,7 +9,7 @@ PHASE 1: USER AUTHENTICATION
    OR
    → Log In
 
--------------------------
+------------------------- 
 SIGN UP FLOW
 -------------------------
 Frontend:
@@ -204,12 +204,15 @@ DB:
 SELECT * FROM Orders WHERE order_id = ?
 
 Response:
-→ status:
+→ status User:
    - pending
-   - preparing
-   - ready
    - completed
-   - cancelled
+   
+→ status Admin:
+
+   - edit  (btn)
+   - cancel (btn)
+   - completed (btn)
 
 
 ========================================

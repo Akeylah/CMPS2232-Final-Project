@@ -2,7 +2,7 @@ import User from "./user";
 import Order from "./order";
 
 class Customer extends User {
-
+//address , email 
   private orders: Order[] = [];
 
   constructor(userId: number, username: string, password: string) {
